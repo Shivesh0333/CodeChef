@@ -58,9 +58,8 @@ int main()
         for ( ; i >= 0; --i, ++j)
         {
             if (k[i] < k[j])
-                k[j] = k[i];
-        }
-        
+                 k[j] = k[i];
+        }        
         cout << k << endl;
     }
     return 0;
